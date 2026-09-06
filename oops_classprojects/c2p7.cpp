@@ -1,4 +1,5 @@
 #include<iostream>
+#include<string>
 using namespace std;
 class Employee {
     private:
@@ -6,8 +7,8 @@ class Employee {
     float basicSalary;
     public: 
     Employee(string name, float salary) {
-        name = employeeName;
-       salary =  basicSalary;
+     employeeName = name;
+     basicSalary = salary;
 
     }
     float calculateHRA() {
