@@ -26,7 +26,7 @@ class Employee {
 
 };
 int main() {
-    Employee e("Drishti", 45000);
+    Employee e("Reedima ", 45000);
     e.calculateHRA();
     e.calculateDA();
     e.display();
